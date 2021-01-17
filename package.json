@@ -1,0 +1,26 @@
+{
+  "name": "dbs-in-node",
+  "version": "1.0.0",
+  "description": "popular db with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bey6/dbs-in-node.git"
+  },
+  "keywords": [
+    "node",
+    "db"
+  ],
+  "author": "bey6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bey6/dbs-in-node/issues"
+  },
+  "homepage": "https://github.com/bey6/dbs-in-node#readme",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
