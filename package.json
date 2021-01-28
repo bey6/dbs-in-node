@@ -22,6 +22,8 @@
   "homepage": "https://github.com/bey6/dbs-in-node#readme",
   "dependencies": {
     "mongodb": "^3.6.3",
-    "redis": "^3.0.2"
+    "pg": "^8.5.1",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.2"
   }
 }
