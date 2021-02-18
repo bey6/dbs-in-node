@@ -13,6 +13,12 @@ docker pull postgres
 docker run -dit --name postgres -e POSTGRES_PASSWORD=123456 -p 5432:5432 -d postgres
 ```
 
+# test
+
+```bash
+docker exec -it postgres psql -U postgres -d postgres
+```
+
 ## lib
 
 i use [node-postgres](https://www.npmjs.com/package/pg) to connect to the PostgreSQL。
